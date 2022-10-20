@@ -11,13 +11,11 @@ function App() {
       <button id="click" onClick={para}>
         Show
       </button>
-      <p id="para" style={visi}>
+      <paragraph id="para" style={visi}>
         {" "}
         Hello, I've learnt to use the full-stack evaluation tool. This makes me
         so happy
-      </p>
+      </paragraph>
     </div>
   );
 }
-
-export default App;
